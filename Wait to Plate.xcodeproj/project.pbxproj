@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7AD475F2479E96C00F15443 /* JTACInteractionYearFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47462479E96A00F15443 /* JTACInteractionYearFunctions.swift */; };
+		A7AD47602479E96C00F15443 /* JTACVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47472479E96A00F15443 /* JTACVariables.swift */; };
+		A7AD47612479E96C00F15443 /* JTACMonthLayoutVerticalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47482479E96A00F15443 /* JTACMonthLayoutVerticalCalendar.swift */; };
+		A7AD47622479E96C00F15443 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7AD47492479E96A00F15443 /* Info.plist */; };
+		A7AD47632479E96C00F15443 /* JTACCollectionMonthViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD474A2479E96B00F15443 /* JTACCollectionMonthViewDelegates.swift */; };
+		A7AD47642479E96C00F15443 /* JTACMonthLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD474B2479E96B00F15443 /* JTACMonthLayout.swift */; };
+		A7AD47652479E96C00F15443 /* JTACCollectionYearViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD474C2479E96B00F15443 /* JTACCollectionYearViewDelegates.swift */; };
+		A7AD47662479E96C00F15443 /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD474D2479E96B00F15443 /* CalendarStructs.swift */; };
+		A7AD47672479E96C00F15443 /* JTACScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD474E2479E96B00F15443 /* JTACScrollViewDelegates.swift */; };
+		A7AD47682479E96C00F15443 /* JTACDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD474F2479E96B00F15443 /* JTACDayCell.swift */; };
+		A7AD47692479E96C00F15443 /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47502479E96B00F15443 /* GlobalFunctionsAndExtensions.swift */; };
+		A7AD476A2479E96C00F15443 /* JTACMonthLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47512479E96B00F15443 /* JTACMonthLayoutProtocol.swift */; };
+		A7AD476B2479E96C00F15443 /* JTACMonthViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47522479E96B00F15443 /* JTACMonthViewProtocols.swift */; };
+		A7AD476C2479E96C00F15443 /* JTACYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47532479E96B00F15443 /* JTACYearView.swift */; };
+		A7AD476D2479E96C00F15443 /* JTACMonthActionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47542479E96B00F15443 /* JTACMonthActionFunctions.swift */; };
+		A7AD476E2479E96C00F15443 /* JTACMonthQueryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47552479E96B00F15443 /* JTACMonthQueryFunctions.swift */; };
+		A7AD476F2479E96C00F15443 /* JTACMonthLayoutHorizontalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47562479E96B00F15443 /* JTACMonthLayoutHorizontalCalendar.swift */; };
+		A7AD47702479E96C00F15443 /* JTACMonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47582479E96B00F15443 /* JTACMonthCell.swift */; };
+		A7AD47712479E96C00F15443 /* JTACMonthDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD47592479E96C00F15443 /* JTACMonthDelegateProtocol.swift */; };
+		A7AD47722479E96C00F15443 /* JTACInteractionMonthFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD475A2479E96C00F15443 /* JTACInteractionMonthFunctions.swift */; };
+		A7AD47732479E96C00F15443 /* JTACMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD475B2479E96C00F15443 /* JTACMonthView.swift */; };
+		A7AD47742479E96C00F15443 /* JTACMonthReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD475C2479E96C00F15443 /* JTACMonthReusableView.swift */; };
+		A7AD47752479E96C00F15443 /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD475D2479E96C00F15443 /* CalendarEnums.swift */; };
+		A7AD47762479E96C00F15443 /* JTACYearViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD475E2479E96C00F15443 /* JTACYearViewProtocols.swift */; };
 		A7D50CDC24789F150039F474 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D50CDB24789F150039F474 /* AppDelegate.swift */; };
 		A7D50CDE24789F150039F474 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D50CDD24789F150039F474 /* SceneDelegate.swift */; };
 		A7D50CE024789F150039F474 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D50CDF24789F150039F474 /* ContentView.swift */; };
@@ -35,6 +59,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7AD47462479E96A00F15443 /* JTACInteractionYearFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACInteractionYearFunctions.swift; sourceTree = "<group>"; };
+		A7AD47472479E96A00F15443 /* JTACVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACVariables.swift; sourceTree = "<group>"; };
+		A7AD47482479E96A00F15443 /* JTACMonthLayoutVerticalCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayoutVerticalCalendar.swift; sourceTree = "<group>"; };
+		A7AD47492479E96A00F15443 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AD474A2479E96B00F15443 /* JTACCollectionMonthViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACCollectionMonthViewDelegates.swift; sourceTree = "<group>"; };
+		A7AD474B2479E96B00F15443 /* JTACMonthLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayout.swift; sourceTree = "<group>"; };
+		A7AD474C2479E96B00F15443 /* JTACCollectionYearViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACCollectionYearViewDelegates.swift; sourceTree = "<group>"; };
+		A7AD474D2479E96B00F15443 /* CalendarStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarStructs.swift; sourceTree = "<group>"; };
+		A7AD474E2479E96B00F15443 /* JTACScrollViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACScrollViewDelegates.swift; sourceTree = "<group>"; };
+		A7AD474F2479E96B00F15443 /* JTACDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACDayCell.swift; sourceTree = "<group>"; };
+		A7AD47502479E96B00F15443 /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
+		A7AD47512479E96B00F15443 /* JTACMonthLayoutProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayoutProtocol.swift; sourceTree = "<group>"; };
+		A7AD47522479E96B00F15443 /* JTACMonthViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthViewProtocols.swift; sourceTree = "<group>"; };
+		A7AD47532479E96B00F15443 /* JTACYearView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACYearView.swift; sourceTree = "<group>"; };
+		A7AD47542479E96B00F15443 /* JTACMonthActionFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthActionFunctions.swift; sourceTree = "<group>"; };
+		A7AD47552479E96B00F15443 /* JTACMonthQueryFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthQueryFunctions.swift; sourceTree = "<group>"; };
+		A7AD47562479E96B00F15443 /* JTACMonthLayoutHorizontalCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthLayoutHorizontalCalendar.swift; sourceTree = "<group>"; };
+		A7AD47572479E96B00F15443 /* JTAppleCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAppleCalendar.h; sourceTree = "<group>"; };
+		A7AD47582479E96B00F15443 /* JTACMonthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthCell.swift; sourceTree = "<group>"; };
+		A7AD47592479E96C00F15443 /* JTACMonthDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthDelegateProtocol.swift; sourceTree = "<group>"; };
+		A7AD475A2479E96C00F15443 /* JTACInteractionMonthFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACInteractionMonthFunctions.swift; sourceTree = "<group>"; };
+		A7AD475B2479E96C00F15443 /* JTACMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthView.swift; sourceTree = "<group>"; };
+		A7AD475C2479E96C00F15443 /* JTACMonthReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACMonthReusableView.swift; sourceTree = "<group>"; };
+		A7AD475D2479E96C00F15443 /* CalendarEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEnums.swift; sourceTree = "<group>"; };
+		A7AD475E2479E96C00F15443 /* JTACYearViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTACYearViewProtocols.swift; sourceTree = "<group>"; };
 		A7D50CD824789F150039F474 /* Wait to Plate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wait to Plate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D50CDB24789F150039F474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7D50CDD24789F150039F474 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +132,31 @@
 				A7D50CF124789F180039F474 /* Wait to PlateTests */,
 				A7D50CFC24789F180039F474 /* Wait to PlateUITests */,
 				A7D50CD924789F150039F474 /* Products */,
+				A7AD475D2479E96C00F15443 /* CalendarEnums.swift */,
+				A7AD474D2479E96B00F15443 /* CalendarStructs.swift */,
+				A7AD47502479E96B00F15443 /* GlobalFunctionsAndExtensions.swift */,
+				A7AD47492479E96A00F15443 /* Info.plist */,
+				A7AD474A2479E96B00F15443 /* JTACCollectionMonthViewDelegates.swift */,
+				A7AD474C2479E96B00F15443 /* JTACCollectionYearViewDelegates.swift */,
+				A7AD474F2479E96B00F15443 /* JTACDayCell.swift */,
+				A7AD475A2479E96C00F15443 /* JTACInteractionMonthFunctions.swift */,
+				A7AD47462479E96A00F15443 /* JTACInteractionYearFunctions.swift */,
+				A7AD47542479E96B00F15443 /* JTACMonthActionFunctions.swift */,
+				A7AD47582479E96B00F15443 /* JTACMonthCell.swift */,
+				A7AD47592479E96C00F15443 /* JTACMonthDelegateProtocol.swift */,
+				A7AD474B2479E96B00F15443 /* JTACMonthLayout.swift */,
+				A7AD47562479E96B00F15443 /* JTACMonthLayoutHorizontalCalendar.swift */,
+				A7AD47512479E96B00F15443 /* JTACMonthLayoutProtocol.swift */,
+				A7AD47482479E96A00F15443 /* JTACMonthLayoutVerticalCalendar.swift */,
+				A7AD47552479E96B00F15443 /* JTACMonthQueryFunctions.swift */,
+				A7AD475C2479E96C00F15443 /* JTACMonthReusableView.swift */,
+				A7AD475B2479E96C00F15443 /* JTACMonthView.swift */,
+				A7AD47522479E96B00F15443 /* JTACMonthViewProtocols.swift */,
+				A7AD474E2479E96B00F15443 /* JTACScrollViewDelegates.swift */,
+				A7AD47472479E96A00F15443 /* JTACVariables.swift */,
+				A7AD47532479E96B00F15443 /* JTACYearView.swift */,
+				A7AD475E2479E96C00F15443 /* JTACYearViewProtocols.swift */,
+				A7AD47572479E96B00F15443 /* JTAppleCalendar.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AD47622479E96C00F15443 /* Info.plist in Resources */,
 				A7D50CE824789F180039F474 /* LaunchScreen.storyboard in Resources */,
 				A7D50CE524789F180039F474 /* Preview Assets.xcassets in Resources */,
 				A7D50CE224789F180039F474 /* Assets.xcassets in Resources */,
@@ -267,8 +342,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AD476B2479E96C00F15443 /* JTACMonthViewProtocols.swift in Sources */,
+				A7AD47712479E96C00F15443 /* JTACMonthDelegateProtocol.swift in Sources */,
+				A7AD47602479E96C00F15443 /* JTACVariables.swift in Sources */,
+				A7AD47632479E96C00F15443 /* JTACCollectionMonthViewDelegates.swift in Sources */,
+				A7AD47742479E96C00F15443 /* JTACMonthReusableView.swift in Sources */,
+				A7AD47692479E96C00F15443 /* GlobalFunctionsAndExtensions.swift in Sources */,
+				A7AD47652479E96C00F15443 /* JTACCollectionYearViewDelegates.swift in Sources */,
 				A7D50CDC24789F150039F474 /* AppDelegate.swift in Sources */,
+				A7AD47662479E96C00F15443 /* CalendarStructs.swift in Sources */,
+				A7AD47752479E96C00F15443 /* CalendarEnums.swift in Sources */,
+				A7AD47612479E96C00F15443 /* JTACMonthLayoutVerticalCalendar.swift in Sources */,
+				A7AD47672479E96C00F15443 /* JTACScrollViewDelegates.swift in Sources */,
+				A7AD476D2479E96C00F15443 /* JTACMonthActionFunctions.swift in Sources */,
+				A7AD47722479E96C00F15443 /* JTACInteractionMonthFunctions.swift in Sources */,
+				A7AD475F2479E96C00F15443 /* JTACInteractionYearFunctions.swift in Sources */,
+				A7AD476E2479E96C00F15443 /* JTACMonthQueryFunctions.swift in Sources */,
+				A7AD47682479E96C00F15443 /* JTACDayCell.swift in Sources */,
+				A7AD47732479E96C00F15443 /* JTACMonthView.swift in Sources */,
+				A7AD476C2479E96C00F15443 /* JTACYearView.swift in Sources */,
+				A7AD47702479E96C00F15443 /* JTACMonthCell.swift in Sources */,
 				A7D50CDE24789F150039F474 /* SceneDelegate.swift in Sources */,
+				A7AD47762479E96C00F15443 /* JTACYearViewProtocols.swift in Sources */,
+				A7AD47642479E96C00F15443 /* JTACMonthLayout.swift in Sources */,
+				A7AD476F2479E96C00F15443 /* JTACMonthLayoutHorizontalCalendar.swift in Sources */,
+				A7AD476A2479E96C00F15443 /* JTACMonthLayoutProtocol.swift in Sources */,
 				A7D50CE024789F150039F474 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
