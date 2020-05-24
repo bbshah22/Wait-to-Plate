@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A74AC9BE2479EEA700C5DCEA /* JTAppleCalendar in Resources */ = {isa = PBXBuildFile; fileRef = A74AC9BD2479EEA700C5DCEA /* JTAppleCalendar */; };
 		A7D50CDC24789F150039F474 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D50CDB24789F150039F474 /* AppDelegate.swift */; };
 		A7D50CDE24789F150039F474 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D50CDD24789F150039F474 /* SceneDelegate.swift */; };
 		A7D50CE024789F150039F474 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D50CDF24789F150039F474 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A74AC9BD2479EEA700C5DCEA /* JTAppleCalendar */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JTAppleCalendar; path = ../GitHub/JTAppleCalendar/Sources/JTAppleCalendar; sourceTree = "<group>"; };
 		A7D50CD824789F150039F474 /* Wait to Plate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wait to Plate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D50CDB24789F150039F474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7D50CDD24789F150039F474 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		A7D50CCF24789F150039F474 = {
 			isa = PBXGroup;
 			children = (
+				A74AC9BD2479EEA700C5DCEA /* JTAppleCalendar */,
 				A7D50CDA24789F150039F474 /* Wait to Plate */,
 				A7D50CF124789F180039F474 /* Wait to PlateTests */,
 				A7D50CFC24789F180039F474 /* Wait to PlateUITests */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7D50CE824789F180039F474 /* LaunchScreen.storyboard in Resources */,
+				A74AC9BE2479EEA700C5DCEA /* JTAppleCalendar in Resources */,
 				A7D50CE524789F180039F474 /* Preview Assets.xcassets in Resources */,
 				A7D50CE224789F180039F474 /* Assets.xcassets in Resources */,
 			);

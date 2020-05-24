@@ -3,7 +3,7 @@
 //  Wait to Plate
 //
 //  Created by Bhuvni Shah on 5/22/20.
-//  Copyright © 2020 Bhuvni Shah. All rights reserved.
+//  /Users/bhuvnishah/Documents/GitHub/JTAppleCalendar/Sources/JTAppleCalendarCopyright © 2020 Bhuvni Shah. All rights reserved.
 //
 
 import UIKit
