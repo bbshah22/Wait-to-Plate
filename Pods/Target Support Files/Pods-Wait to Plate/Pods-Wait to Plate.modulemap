@@ -1,0 +1,6 @@
+framework module Pods_Wait_to_Plate {
+  umbrella header "Pods-Wait to Plate-umbrella.h"
+
+  export *
+  module * { export * }
+}

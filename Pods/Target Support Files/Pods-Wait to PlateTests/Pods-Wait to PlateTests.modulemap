@@ -1,0 +1,6 @@
+framework module Pods_Wait_to_PlateTests {
+  umbrella header "Pods-Wait to PlateTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
